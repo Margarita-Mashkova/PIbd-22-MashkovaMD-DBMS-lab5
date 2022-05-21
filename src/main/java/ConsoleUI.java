@@ -371,7 +371,6 @@ public class ConsoleUI {
     }
 
     public void printHandBooks(String param){
-        System.out.println("Введите название сущности:\n");
         try {
             switch (param) {
                 case ("факультет") : printFaculties();

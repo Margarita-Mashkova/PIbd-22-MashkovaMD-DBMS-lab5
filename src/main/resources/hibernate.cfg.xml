@@ -7,7 +7,7 @@
         <!-- JDBC Database connection settings -->
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="connection.url">jdbc:postgresql://172.20.10.12:5432/testdb?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="connection.url">jdbc:postgresql://192.168.1.181:5432/testdb?useSSL=false&amp;serverTimezone=UTC</property>
         <property name="connection.username">testuser</property>
         <property name="connection.password">1</property>
         <property name="hbm2ddl.auto">update</property>
